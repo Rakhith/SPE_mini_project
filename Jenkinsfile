@@ -13,7 +13,7 @@ pipeline {
     }
 
     environment {
-        DOCKERHUB_USER       = 'rakhith-username'
+        DOCKERHUB_USER       = 'rakhith'
         DOCKER_IMAGE         = "${DOCKERHUB_USER}/calculator"
         IMAGE_TAG            = "${BUILD_NUMBER}"
         COMPOSE_PROJECT_NAME = 'calculator'
