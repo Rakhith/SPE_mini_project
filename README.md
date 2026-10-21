@@ -34,7 +34,7 @@ The port can be changed with the `PORT` environment variable.
 
     docker compose up -d
 
-The Nginx proxy is exposed on http://localhost:80 (details added with the Compose setup).
+The Nginx proxy is exposed on http://localhost:8082 (2 calculator replicas behind Nginx, with health checks).
 
 ## CI/CD
 
