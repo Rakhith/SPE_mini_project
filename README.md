@@ -39,3 +39,5 @@ The Nginx proxy is exposed on http://localhost:8082 (2 calculator replicas behin
 ## CI/CD
 
 The `Jenkinsfile` defines the pipeline: Checkout, Build, Test, Docker Build, Push, Deploy.
+
+Pipeline test: automatic trigger.
