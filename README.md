@@ -3,6 +3,8 @@
 A simple Calculator REST API in plain Java (JDK built-in HTTP server, Maven, JUnit 5),
 with a full CI/CD pipeline: GitHub -> Jenkins -> Docker -> Docker Hub -> Docker Compose.
 
+Docker Hub image: [rakhith/calculator](https://hub.docker.com/r/rakhith/calculator)
+
 ## Endpoints
 
 | Operation | Endpoint |
@@ -41,3 +43,8 @@ The Nginx proxy is exposed on http://localhost:8082 (2 calculator replicas behin
 The `Jenkinsfile` defines the pipeline: Checkout, Build, Test, Docker Build, Push, Deploy.
 
 Pipeline test: automatic trigger.
+
+## Project report and evidence
+
+- [Project report (PDF)](PROJECT_REPORT.pdf)
+- [Screenshots](screenshots/)
